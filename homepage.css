@@ -529,11 +529,16 @@ color: black;
         margin: auto;
      }
      .idk h1{
-            font-size: 1.4rem;
+            font-size: 1.6rem;
      }
      .navbar ul{
        display: none;
      }
+     .selector #select-field{
+        margin: 0;
+        
+      }
+
 }
 
 
@@ -544,10 +549,10 @@ color: black;
         margin: auto;
         width: 1000px;
         margin-left: 20px;
-        line-height: 25px; 
+        line-height: 35px; 
         }
      .idk h1{
-            font-size: 1.3rem;
+            font-size: 1.6rem;
 
      }
      .navbar ul{
@@ -557,6 +562,10 @@ color: black;
      {
           height: 60px;
      }
+     .selector #select-field{
+        margin: 0;
+        
+      }
 }
 
 
@@ -571,10 +580,10 @@ color: black;
         margin: auto;
         width: 1000px;
         margin-left: 20px;
-        line-height: 25px; 
+        line-height: 35px; 
         }
      .idk h1{
-            font-size: 1.3rem;
+            font-size: 1.5rem;
 
      }
      .navbar ul{
@@ -621,7 +630,7 @@ color: black;
 
   .selector #select-field{
     margin: 0;
-    margin-top: px;
+    
   }
   .selector #select-field p{
     font-size: 1.3rem;

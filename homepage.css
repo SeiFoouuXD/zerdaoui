@@ -5,19 +5,13 @@
 
 }
 body{
-   
     height: 100vh;
-    
-
 }
 header{
-    height: 20%;
+    padding: 0.4rem;
     width: 100%;
     display: flex;
-    justify-content: center;
     justify-content: space-between;
-    
-
 }
 header img{
     height: 120px;
@@ -26,19 +20,15 @@ header img{
 .navbar{
     display: flex;
     align-items: center;
-    margin: 30px;
     
 }
 .idk{
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    margin-left: 150px;
 }
 
-.logo{
-    margin-left: 10px;
-}
+
 .navbar ul{
     display: flex;
     gap: 40px;
@@ -64,8 +54,8 @@ header img{
 
 
 .box {
-    width: 400px; 
-    min-height: 300px; 
+    
+    
     border: none; 
     border-radius: 10px;
     padding: 20px; 
@@ -73,6 +63,8 @@ header img{
     background-color: rgba(255, 255, 255, 0.5); 
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center; 
+    width: 100%;
+    max-width:400px ;
     
 }
 

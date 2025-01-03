@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="naissance.css">
+    <title>Naissance</title>
+    
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+           <a href="homepage.html" target="_self"> <img src="pics/pngwing.com.png" alt=""></a>
+        </div>
+
+        <div class="idk">
+            <h1>  النسخة الرقمية لشهادة الوفاة </h1>
+        </div>
+       
+
+        
+    </header>
+    <div class="content">
+
+        <div class="help">
+            <img src="pics/help.jpg.jpeg" alt="">
+        </div>
+        <form action="#">
+            
+                <div class="box-input">
+                    <input type="text" id="prenom" placeholder="prenom">
+                    <label for="prenom">الاسم *</label>
+                </div>
+
+                <div class="box-input">
+                    <input type="text" id="nom" placeholder="nom">
+                    <label for="nom">اللقب *</label>
+                </div>
+
+                <div class="box-input">
+                   <select name="wilaya" id="wilaya">
+                    <option value="">عنابة</option>
+                    <option value="">بجاية</option>
+                    <option value="">وهران</option>
+                   </select>
+                    <label for="wilaya">ولاية الوفاة *</label>
+                </div>
+
+                <div class="box-input">
+                    <select name="baladya" id="baladya">
+                        <option value="">البوني</option>
+                        <option value="">برحال</option>
+                        <option value="">سرايدي</option>
+                       </select>
+                    <label for="baladya">بلدية الوفاة *</label>
+                </div>
+
+                <div class="box-input">
+                    <input type="date" id="date">
+                    <label for="date">تاريخ الوفاة *</label>
+                </div>
+
+                <div class="box-input">
+                   <input type="number" id="num">
+                    <label for="num">رقم عقد الوفاة *</label>
+                </div>
+                <div class="box-input">
+                    <input type="text" id="name" placeholder="CNI">
+                    <label for="name" id="mod">رقم التعريف الوطني *</label>
+                </div>
+                <div class="box-input">
+                    <input type="text" id="name" placeholder="NIN">
+                    <label for="name" id="mod">رقم بطاقة التعريف الوطني *</label>
+                </div>
+
+                <div class="box-input" id="bttn">
+                    <button type="button" onclick="GotoPage()"> <p>الغاء الطلب</p></button>
+                   </div>
+
+                <div class="box-input" id="btn">
+                    <input type="submit" value="تأكيد الطلب" id="Submit">
+                    <label for="Submit"></label>
+                </div>
+                
+           
+        </form>
+
+
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
